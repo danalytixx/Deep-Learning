@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # # ANN classification
 
@@ -139,8 +137,6 @@ plt.ylabel('val_accuracy')
 plt.xlabel('epoch')
 plt.show()
 
-
-# In[ ]:
 
 
 
