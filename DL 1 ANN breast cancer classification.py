@@ -29,7 +29,7 @@ from sklearn.metrics import accuracy_score
 
 # Load the dataset from scikit's data sets
 loaddata = datasets.load_breast_cancer()
-X, y = loaddata.data, diabetes.target
+X, y = loaddata.data, loaddata.target
 
 X = pd.DataFrame(loaddata.data, columns=loaddata.feature_names)
 y = pd.DataFrame(loaddata.target)
