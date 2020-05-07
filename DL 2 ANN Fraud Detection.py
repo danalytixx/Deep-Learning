@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # # ANN classification
 
@@ -135,7 +133,6 @@ bias.shape
 print("max: ",bias.max() ,"min: ",bias.min())
 
 
-# In[ ]:
 
 
 
