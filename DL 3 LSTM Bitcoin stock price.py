@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# # LSTM stock price prediction
+# # LSTM Bitcoin stock price prediction
 
 # In[1]:
 
