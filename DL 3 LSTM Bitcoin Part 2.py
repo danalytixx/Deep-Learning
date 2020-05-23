@@ -68,7 +68,7 @@ X.shape
 
 # Split the data up in train and test sets
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, shuffle=False)
 
 
 # ## Training the model 
@@ -101,7 +101,7 @@ print(score)
 
 
 #calculate the prediction
-predictions = model.predict(X)
+predictions = model.predict(X_test)
 predictions.shape
 
 
