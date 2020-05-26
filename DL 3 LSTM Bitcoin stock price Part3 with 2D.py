@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # # LSTM stock price prediction
 
@@ -193,16 +192,6 @@ plt.xlabel('Date')
 plt.ylabel('Stock Price')
 plt.legend()
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
