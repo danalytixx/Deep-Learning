@@ -123,7 +123,7 @@ print(score)
 
 # In[9]:
 
-
+#plot loss over number of epochs
 plt.figure(figsize=(15,5))
 plt.plot(history.history['loss'])
 plt.ylabel('loss')
