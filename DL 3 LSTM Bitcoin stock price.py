@@ -6,7 +6,6 @@
 
 import numpy as np
 import pandas as pd
-get_ipython().run_line_magic('matplotlib', 'inline')
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
 import matplotlib.pyplot as plt
@@ -91,7 +90,7 @@ print(score)
 # In[8]:
 
 
-predictions = model.predict(X)
+predictions = model.predict(X_test)
 
 
 # In[9]:
