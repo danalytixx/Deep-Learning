@@ -6,7 +6,6 @@
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
-get_ipython().run_line_magic('matplotlib', 'inline')
 from keras.models import Sequential
 from keras.layers import LSTM, Dense,Flatten, Dropout, Activation
 import matplotlib.pyplot as plt
