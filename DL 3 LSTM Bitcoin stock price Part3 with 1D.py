@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # # LSTM stock price prediction
 
@@ -9,7 +8,6 @@
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
-get_ipython().run_line_magic('matplotlib', 'inline')
 from keras.models import Sequential
 from keras.layers import LSTM, Dense,Flatten, Dropout, Activation
 import matplotlib.pyplot as plt
@@ -176,16 +174,6 @@ plt.xlabel('Date')
 plt.ylabel('Stock Price')
 plt.legend()
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
