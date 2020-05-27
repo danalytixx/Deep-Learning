@@ -99,8 +99,9 @@ X_test.shape
 model = Sequential()
 #LSTM layer
 model.add(LSTM(64, activation='relu',return_sequences = True,input_shape = (20, 2)))
+model.add(Dropout(0.01))
 model.add(LSTM(32,activation='relu',return_sequences = False))
-
+model.add(Dropout(0.01))
 model.add(Dense(32))
 model.add(Dense(16))
 
@@ -108,7 +109,7 @@ model.add(Dense(16))
 model.add(Dense(1))
 
 model.compile(optimizer="nadam", loss="mse",metrics=['accuracy'])
-history=model.fit(X_train, y_train ,batch_size=16, epochs=50)
+history=model.fit(X_train, y_train ,batch_size=16, epochs=100)
 
 
 # ## Evaluating the model and predict
