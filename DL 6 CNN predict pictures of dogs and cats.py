@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 # Importing the Keras libraries and packages
 from keras.models import Sequential
@@ -106,7 +101,7 @@ plt.imshow(training_setnp[0])
 plt.show()
 
 
-# In[ ]:
+
 
 
 
