@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import cv2
@@ -245,8 +242,6 @@ plt.title("Image after maximum suppression")
 plt.imshow(image)
 plt.show()
 
-
-# In[ ]:
 
 
 
